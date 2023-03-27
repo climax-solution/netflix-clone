@@ -1,0 +1,43 @@
+.wrapper {
+  @apply mx-auto mt-20 max-w-7xl md:px-6 lg:px-8;
+
+  * {
+    @apply text-stone-300;
+  }
+
+  strong {
+    @apply font-semibold;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  strong {
+    @apply text-stone-50;
+  }
+
+  h1 {
+    @apply my-3 text-3xl font-semibold;
+  }
+
+  h2 {
+    @apply my-2 text-xl font-semibold;
+  }
+
+  h3 {
+    @apply my-2 text-xl font-medium;
+  }
+
+  p {
+    @apply my-2;
+  }
+
+  ul {
+    @apply list-disc pl-8;
+  }
+
+  a {
+    @apply text-red-500 underline-offset-2 hover:underline;
+  }
+}
